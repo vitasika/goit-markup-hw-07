@@ -1,13 +1,17 @@
 .herobox {
-  display: flex;
+  // display: flex;
+  max-width: 1600px;
   height: 600px;
   background: #2f303a;
-  padding-top: 200px; 
+  // padding-top: 200px; 
+}
+
+.herobox__block{
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .overlay{
-  max-width: 1600px;
-  height: 600px; 
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/baner-hero.jpg);
